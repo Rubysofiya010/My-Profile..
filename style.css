@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:pink;
+    font-size:15px ;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+    list-style: none;
+
+
+    
+}
+li{
+    padding-right: 90px;
+}
+
+
+.links{
+    text-decoration:none;
+    cursor: pointer;
+    font-size: xx-large;
+}
+#name{
+    color: blue;
+    font-size:20px;
+    padding-right: 20px;
+    height: 60px;
+ 
+  
+    
+}
+#home{
+    display: flex;
+    background-color:red; 
+    height: 100px;
+    padding-top: 10px;
+    font-size:40px;
+   padding-left: 50px;
+}
+
+article{
+    font-size: x-large;
+}
+#profilepic{
+    height:300px;
+    width: 200px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 90px;
+}
+#quote{
+    font-size: 25px;
+    color:purple;
+}
+#about{
+    display: flex;
+    align-items: center;
+}
+#work{
+background-color:blueviolet ;
+color:lightgreen ;
+display:flex;
+flex-direction: column;
+align-items:center ;
+padding: 10px;
+font-size: xx-large;
+}
+#skills{
+    background-color:plum;
+    width: 2000px;
+    color:whitesmoke;
+}
+
+
+
+hr{
+    width: 400px;
+}
+.project{
+    background-color: aliceblue;
+    color: black;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius:30px ;
+  
+}
+#work p hr{
+    margin-bottom: 10px;
+    
+}
+#work div{
+    display:flex;
+    justify-content: space-around;
+    margin:10px 0px 0px 10px;
+    width:100%;
+    
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    list-style:none ;
+    padding: 3px;
+}
+progress[value]{
+    height: 15px;
+    width: 350px;
+    -webkit-appearance: none;
+    
+}
+#resume{
+    
+    padding: 5px 10px 100px 10px;
+transform: translate(30px,100px);
+    font-size: x-large;
+
+}
+#contact,form{
+    background-color:palegreen;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: -30px 0px 10px 0px;
+    width: 1500px;
+    padding-top: 100px;
+}
+h4{
+    font-size: xx-large;
+}
+  
+  
+
+.input{
+    line-height: 1px;
+    width: 250px;
+    border-radius: 1px;
+    border-color: black;
+    margin: 10px 20px 10px 0px;
+    padding-bottom: 20px;
+   
+
+}
+.contact{
+    height: 5px;
+    width: 100px;
+    
+}
